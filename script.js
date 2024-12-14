@@ -229,7 +229,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 alert("Failed to log action. Please try again.");
             } else {
                 console.log("Data saved to Supabase:", data);
-                alert(`${employeeName} has successfully ${action.toLowerCase()}ed.`);
+                alert(`${employeeName} has successfully ${action.toLowerCase()}.`);
             }
         } catch (error) {
             console.error("Unexpected error:", error);
