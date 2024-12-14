@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     document.getElementById("confirm-btn").addEventListener("click", async function () {
         const secretKey = document.getElementById("secret-key").value;
         if (!secretKey) {
-            alert("Please enter your password.");
+            alert("Please enter your password");
             return;
         }
 
